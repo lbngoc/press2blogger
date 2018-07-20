@@ -52,14 +52,21 @@ _More examples will come soon !_
 
 # FAQs
 
-1. Current album is full, please create a new one manually...
+**1. Current album is full, please create a new one manually...**
+
+![](screenshots/faq-1.jpg)
 
 > Because Google was not allow create an album by API anymore.. so that when facing this warning, you should create an album manually before continue
 >  - Open your browser and create/edit a post on your current blog
 >  - Click "Insert Image" on toolbar, then upload an picture from computer.
 >  - After upload success, Google Photos will create new album for your blog, you can back to the console and confirm "Yes" to continue
 
-![](screenshots/faq-1.jpg)
+**2. Upload error: ... UNKNOWN_ERROR**
+
+![](screenshots/faq-2.jpg)
+
+> Sometimes Google return error when calling upload API, so if you get this error, just wait for some minutes and press "Yes" to retry
+> You can also skip uploading some images and move to next post if "Retry" not working
 
 # Change Logs
 
@@ -79,7 +86,8 @@ _More examples will come soon !_
 
 # TODO
 
-[ ] Check if image is already exist then skipping download/upload
+- [ ] Check if image is already exist then skipping download/upload
+- [x] Re-create access_token when it expired when process still running
 
 # License
 
